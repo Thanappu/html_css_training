@@ -1,0 +1,72 @@
+table {
+    width: 100%;
+    border-collapse:collapse    ;
+}
+table,th,td{
+    border: 1px solid #000;
+}
+th{
+    height: 50px;
+}
+td{
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* div {
+    width: 50%;
+    height: 150px;
+    background-color: burlywood;
+    color: #000;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-weight: 900;
+
+
+} */
+
+/* p{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rebeccapurple   ;
+    text-transform: capitalize;
+    text-indent: 10px;
+    letter-spacing: 10px;
+    line-height: 10px;
+    word-spacing: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 5px red;
+} */

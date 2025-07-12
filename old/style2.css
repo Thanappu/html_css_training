@@ -1,0 +1,29 @@
+p{
+    color: aliceblue;
+}
+body {
+    /* background-color: burlywood;
+    background-image: url("https://www.singulart.com/blog/wp-content/uploads/2023/09/Self-portrait-with-Straw-Hat-1887-88-857x1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    */
+
+    /* short 
+        background-color
+        background-image
+        background-repeat
+        background-attachment
+        background-position
+    */
+
+    background: url("https://www.singulart.com/blog/wp-content/uploads/2023/09/Self-portrait-with-Straw-Hat-1887-88-857x1024.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.mybox {
+    /* width: 1024px;
+    height: 1024px; */
+    background-image: url("img/betta-fish-swim-black-background-600nw-2316609415.jpg.webp");
+    background-size: cover;
+}

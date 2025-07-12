@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            background-color: blue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: rgb(142, 243, 243);
+        }
+        #myBox{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+        <div id="myBox">
+
+        </div>
+
+        <script> 
+            let myBox = document.getElementById("myBox");
+            myBox.addEventListener("click",function(){
+                alert("hello");
+            })
+        </script>
+    <!-- parent Elememt -->
+    <!-- <div> -->
+        <!-- Child Element -->
+        <!-- <h1>Hello HTML</h1>
+        <p>Learn HTML and stuff</p>
+         
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis illum maxime et quae quasi, distinctio dicta asperiores ut natus quas quaerat quo dignissimos molestiae, blanditiis libero ex sapiente labore fuga.</p>
+        </div>
+    </div> -->
+
+
+
+    <!-- <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam? Assumenda, voluptatum? Officiis dolorem eos at blanditiis perspiciatis voluptatibus nihil, repellat, qui maiores vitae animi, unde recusandae necessitatibus fuga debitis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam? Assumenda, voluptatum? Officiis dolorem eos at blanditiis perspiciatis voluptatibus nihil, repellat, qui maiores vitae animi, unde recusandae necessitatibus fuga debitis.
+        </p>
+    </div>
+
+    <hr>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+    
+    <span>Text1</span>
+    <span>Text2</span>
+    <span>Text3</span> -->
+
+    <!-- <h1>HTML Headings</h1>
+    <h2>HTML Headings</h2>
+    <h3>HTML Headings</h3>
+    <h4>HTML Headings</h4>
+    <h5>HTML Headings</h5>
+    <h6>HTML Headings</h6>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam? Assumenda, voluptatum? Officiis dolorem eos at blanditiis perspiciatis voluptatibus nihil, repellat, qui maiores vitae animi, unde recusandae necessitatibus fuga debitis.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam? Assumenda, voluptatum? Officiis dolorem eos at blanditiis perspiciatis voluptatibus nihil, repellat, qui maiores vitae animi, unde recusandae necessitatibus fuga debitis.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam? Assumenda, voluptatum? Officiis dolorem eos at blanditiis perspiciatis voluptatibus nihil, repellat, qui maiores vitae animi, unde recusandae necessitatibus fuga debitis.
+    </p>
+    <a href="https://www.google.com" target="_blank"> Go to google</a>
+    <a href="about.html">Go to About Page</a> -->
+
+    <!-- <img width="300" height="300" src="https://static.vecteezy.com/system/resources/thumbnails/053/741/746/small/a-colorful-lizard-with-a-blue-and-orange-face-is-staring-at-the-camera-the-lizard-s-face-is-the-main-focus-of-the-image-and-it-is-curious-or-alert-the-bright-colors-of-the-lizard-s-face-photo.jpg" alt="Colorful lizard">
+    <img width="300" height="300" src="img/betta-fish-swim-black-background-600nw-2316609415.jpg.webp" alt="">
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>10</td>
+            <td>DEV</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane</td>
+            <td>12</td>
+            <td>CEO</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>jack</td>
+            <td>8</td>
+            <td>SALE</td>
+        </tr>
+    </table> -->
+    <!-- Unordered list-->
+    <!-- <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> -->
+    <!-- comment! -->
+    <!-- <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <b>This text is bold</b>
+    <strong>Important text</strong>
+    <i>Italic text</i>
+    <em>Emphasized text</em>
+    <mark> Marked text</mark>
+    <del>Deleted text</del>
+    <ins>Inserted text</ins>
+    <sub>Subscript text</sub>
+    <sup>Superscript text</sup>
+
+    <form action=""> -->
+        <!-- label เอาไว้ทำป้ายให้ Input -->
+         <!-- <fieldset>
+            <legend>Personal Info</legend>
+            <label for="firstname" >First Name </label>
+            <input type="text" name="firstname" placeholder="enter your first name"><br>
+            <label for="last name">Last Name</label>
+            <input type="text" name="lastname"><br>
+            <input type="button" value="submit"><br>
+        </fieldset>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+        </select><br>
+
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="volvo">Volvo</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+        </datalist>
+
+        <textarea name="" id=""></textarea> -->
+<!-- 
+        <input type="button" value=""><br>
+        <input type="checkbox" name="" id=""><br>
+        <input type="color" name="" id=""><br>
+        <input type="date" name="" id=""><br>
+        <input type="datetime-local" name="" id=""><br>
+        <input type="email" name="" id=""><br>
+        <input type="file" name="" id=""><br>
+        <input type="hidden" name=""><br>
+        <input type="image" src="" alt=""><br>
+        <input type="number" name="" id=""><br>
+        <input type="password" name="" id=""><br>
+        <input type="radio" name="" id=""><br>
+        <input type="range" name="" id=""><br>
+        <input type="reset" value=""><br>
+        <input type="search" name="" id=""><br>
+        <input type="submit" value=""><br>
+        <input type="tel" name="" id=""><br>
+        <input type="text" name="" id=""><br>
+        <input type="time" name="" id=""><br>
+        <input type="url" name="" id=""><br>
+        <input type="week" name="" id=""> -->
+    <!-- </form> -->
+
+    
+</body>
+</html>
